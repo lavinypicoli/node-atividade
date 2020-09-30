@@ -1,0 +1,31 @@
+<div class="card">
+  <div class="card-body">
+      <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Serial</th>
+      <th scope="col">Latitude</th>
+      <th scope="col">Longitude</th>
+      <th scope="col">Nome</th>
+     <th scope="col">Action</th>
+      <th scope="col">Action</th> 
+    </tr>
+  </thead>
+  <tbody>
+      {{#data}}
+    <tr>
+            <td>{{id}}</td>
+            <td>{{serial}}</td>
+            <td>{{lat}}</td>
+            <td>{{lon}}</td>
+            <td>{{nome}}</td>     
+    </tr>
+    {{/data}}
+  </tbody>
+    </table>
+  </div>
+</div>      
+
+
+
